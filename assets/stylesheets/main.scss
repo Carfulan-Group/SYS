@@ -1,0 +1,28 @@
+// Bootstrap
+@import "../../vendor/bootstrap-sass-3.3.5/assets/stylesheets/_bootstrap.scss";
+
+// My Styles
+@import "_variables";
+@import "_header";
+@import "_slider";
+@import '_aside';
+@import "_body";
+@import "_front-page";
+@import "_category";
+@import "_range_showcase";
+@import "_machines";
+@import "_news-events";
+@import "_footer";
+
+// Icons
+@import "../../vendor/fontello/css/animation";
+@import "../../vendor/fontello/css/fontello";
+@import "../../vendor/fontello/css/fontello-codes";
+@import "../../vendor/fontello/css/fontello-embedded";
+@import "../../vendor/fontello/css/fontello-ie7";
+@import "../../vendor/fontello/css/fontello-ie7-codes";
+
+// Usage 
+	
+
+//// Imports all of the .scss files to be compiled to CSS

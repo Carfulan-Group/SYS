@@ -1,0 +1,108 @@
+.slider-container {
+	position: relative;
+	overflow: hidden;
+
+		.sys-button{
+			&:after {
+				transition:0.5s;
+				content:"";
+				position: absolute;
+				top:0;
+				left:-100%;
+				height: 100%;
+				width: 100%;
+				z-index: 1;
+				background: #fff;
+				transform:rotate(-45deg);
+				opacity: 0.5;
+			}
+			&:hover {
+				&:after {
+					left:100%;
+				}
+			}
+		}
+}
+
+.slider {
+	display: flex;
+	flex-wrap:wrap;
+	padding:0;
+	margin: 0;
+	width: 1000vw; // so items don't sit underneath eachother before JS and ruin lazyloading
+	li {
+		width: 10%;
+		transition: margin 1s ease;
+		display: inline-flex;
+		background-position: center;
+		background-size: cover;
+			.slide-content {
+				max-width:400px;
+				background: #fff;
+				background: rgba(255,255,255,0.7);
+				position: relative;
+				padding:60px 50px 60px 50px;
+				// margin-left: -15px;
+				// margin-right: -15px;
+					h2 {
+						margin:0 0 20px 0;
+						font-size: 1.8em;
+					}
+					p {
+						margin:0 0 20px 0;
+					}
+					&:after {
+						content: "";
+						position: absolute;
+						width: 100%;
+						height: 900px;
+						background: #fff;
+						background: rgba(255,255,255,0.7);
+						top:100%;
+						left:0;
+					}
+			}
+	}
+}
+
+#slider-next, #slider-prev {
+	@extend %tran;
+	position: absolute;
+	top:50%;
+	transform:translatey(-50%);
+	background: $light-blue;
+	padding:50px 10px;
+	color:#fff;
+	opacity: 0.8;
+	cursor: pointer;
+		&:hover {
+			opacity: 1;
+		}
+}
+
+#slider-next {
+	right: 0;
+}
+
+#slider-prev {
+	left:0;
+}
+
+#pauseSlider {
+	@extend %tran;
+	position: absolute;
+	bottom:0;
+	right:0;
+	padding:10px 15px;
+	// background: #fff;
+	opacity: 0.8;
+	cursor: pointer;
+	// box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+		&:hover {
+			opacity: 1;
+		}
+		i {
+			display: block;
+			margin-top: 5px;
+		}
+}

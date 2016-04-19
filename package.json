@@ -1,0 +1,25 @@
+{
+  "name": "sys",
+  "version": "1.0.0",
+  "description": "The SYS Systems website",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.5.1"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "keywords": [
+    "3D",
+    "Printing"
+  ],
+  "author": "Sam Mckay",
+  "license": "ISC"
+}

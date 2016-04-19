@@ -1,0 +1,300 @@
+html {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 100%;
+}
+
+body {
+	background: $very-light-grey;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 400;
+	overflow-x: hidden;
+	font-size: 16px;
+	max-width: 100%;
+	line-height: 1.5;
+	letter-spacing: 0.5px;
+	@media screen and (max-width: 1200px) {
+		font-size: 15px;
+	}
+}
+
+.logged-in {
+	header {
+		top: 32px;
+		@media screen and (max-width: 783px) {
+			top: 46px;
+		}
+	}
+}
+
+main {
+	//@extend %tran;
+	overflow: hidden;
+	//opacity: 0;
+}
+
+.fade {
+	opacity: 0;
+	transition: 0.5s ease;
+}
+
+.fade--in {
+	opacity: 1;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.clear-head {
+	margin-top: 108px;
+}
+
+.hide-analytics {
+	display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.3;
+	letter-spacing: 0.5px;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 2.4em;
+}
+
+h2 {
+	font-size: 2.0em;
+}
+
+h3 {
+	font-size: 1.8em;
+}
+
+h4 {
+	font-size: 1.6em;
+}
+
+h5 {
+	font-size: 1.4em;
+}
+
+h6 {
+	font-size: 1.2em;
+}
+
+p {
+	font-size: 1em;
+}
+
+a, a:hover, a:focus, a:active, a:visited {
+	text-decoration: inherit;
+	color: $light-blue;
+}
+
+b, strong {
+	font-weight: 500;
+}
+
+.white {
+	background: #fff;
+}
+
+ul {
+	padding-left: 1em;
+}
+
+hr {
+	padding: 0;
+	margin: 0;
+	background-color: $light-grey;
+	height: 1px;
+}
+
+.sys-input {
+	padding: 10px;
+	border: none;
+	border-radius: 1px;
+	background: $very-light-grey;
+}
+
+.page-title {
+	@extend .vertical-padding-large;
+	display: block;
+	border-bottom: solid 2px $light-grey;
+	margin: 0;
+	h1 {
+		margin: 0;
+	}
+	h2 {
+		margin: 10px 0 0 0;
+		font-size: 1.4em;
+	}
+}
+
+#search-results {
+	.search-result {
+		margin-top: 40px;
+		margin-bottom: 40px;
+		padding-left: 20px;
+		border-left: solid 2px $light-grey;
+		display: block;
+		color: $dark-grey;
+		@extend %tran;
+		&:hover {
+			border-color: $light-blue;
+		}
+	}
+}
+
+.contact {
+	.caldera-grid .form-control {
+		background: $very-light-grey !important;
+		border: none !important;
+		border-radius: 1px !important;
+		box-shadow: none !important;
+		padding: 10px !important;
+	}
+	.sys-button {
+		width: 100%;
+	}
+}
+
+.contact-page {
+	.contact-item {
+		@extend .vertical-padding-large;
+	}
+	form a {
+		color: $dark-grey;
+	}
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote, code, pre, img {
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+ul, ol {
+	padding: 0 0 0 30px;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-break-lg {
+	@media screen and (max-width: $screen-lg) {
+		display: block;
+		flex-wrap: none;
+	}
+}
+
+.flex-break-md {
+	@media screen and (max-width: $screen-md) {
+		display: block;
+		flex-wrap: none;
+	}
+}
+
+.flex-break-sm {
+	@media screen and (max-width: $screen-sm) {
+		display: block;
+		flex-wrap: none;
+	}
+}
+
+.flex-break-xs {
+	@media screen and (max-width: $screen-xs) {
+		display: block;
+		flex-wrap: none;
+	}
+}
+
+.masonry {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 20px;
+	* {
+		display: inline-block;
+	}
+	.item {
+		@extend .col-md-4;
+		width: 33%;
+	}
+	@media screen and (max-width: $screen-md) {
+		display: block;
+		float: left;
+		padding-bottom: 0;
+		width: 100%;
+		.item {
+			width: 100%;
+			display: block;
+			float: left;
+			clear: both;
+		}
+	}
+}
+
+.yrc-item-open:hover .yrc-thumb, .yrc-item-adjacent:hover .yrc-thumb, .yrc-item-none:hover .yrc-thumb {
+	transform: scale(1) !important;
+}
+
+.yrc-video-title, .yrc-item-title {
+	margin-top: 10px !important;
+}
+
+.yrc-thumb {
+	width: 100% !important;
+}
+
+.yrc-section-action, .yrc-sub-section-name, .yrc-close {
+	background: $light-blue !important;
+	span {
+		@extend %tran;
+		background: $light-blue !important;
+		color: #fff !important;
+	}
+}
+
+.yrc-item-meta {
+	width: 100% !important;
+}
+
+.sitemap {
+	li {
+		@extend .col-sm-4;
+	}
+	a {
+		@extend %tran;
+		display: block;
+		padding: 5px 0;
+		color: $dark-grey;
+		&:hover {
+			color: $light-blue;
+		}
+	}
+}
+
+.files {
+	h1, h2, h3, h4, h5, h6 {
+		display: block;
+	}
+	li {
+		display: block;
+	}
+}
