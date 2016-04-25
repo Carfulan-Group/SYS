@@ -1,5 +1,5 @@
 header {
-	transition: 1s linear;
+	@extend %tran;
 	position: fixed;
 	z-index: 999;
 	width: 100%;
@@ -375,4 +375,16 @@ header {
 
 .spin {
 	animation: 0.5s loading infinite;
+}
+
+// // //
+// headroom styles below, these hide the header when the user scrolls down and then makes it re=eappear when scrolling up looking for it.
+//
+
+.headroom--pinned {
+	transform: translateY(0);
+}
+
+.headroom--unpinned {
+	transform: translateY(-100%);
 }

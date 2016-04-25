@@ -15,6 +15,7 @@ gulp.task ( 'scripts', function ()
 			'vendor/bootstrap-sass-3.3.5/assets/javascripts/bootstrap.min.js',
 			'vendor/layzr/_layzr.js',
 			'vendor/jquery-smoothstate/smoothstate.min.js',
+			'vendor/headroom/headroom.js',
 			'assets/javascripts/_*.js'
 		]
 			   )
