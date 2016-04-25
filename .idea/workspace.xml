@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6a65cf95-cb8c-4264-b31b-cc758717861d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/_initiate-headroom.js" afterPath="$PROJECT_DIR$/assets/javascripts/_initiate-headroom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/build.js" afterPath="$PROJECT_DIR$/assets/javascripts/build.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/_body.scss" afterPath="$PROJECT_DIR$/assets/stylesheets/_body.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/main.css" afterPath="$PROJECT_DIR$/assets/stylesheets/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single-news.php" afterPath="$PROJECT_DIR$/single-news.php" />
     </list>
     <ignored path="sys.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,26 +37,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_machines.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/stylesheets/_machines.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4284">
-              <caret line="153" column="5" selection-start-line="153" selection-start-column="5" selection-end-line="153" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_home.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/javascripts/_home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/stylesheets/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,16 +52,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
               <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_slider.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/stylesheets/_slider.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -108,22 +79,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_initiate-headroom.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_initiate-headroom.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/javascripts/_initiate-headroom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            <state relative-caret-position="308">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/javascripts/build.js">
+      <file leaf-file-name="page-news.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page-news.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6153">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="224">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_body.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/stylesheets/_body.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tpl-sidebar-contact.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page-templates/tpl-sidebar-contact.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single-news.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/single-news.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="12" column="83" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
+              <folding>
+                <marker date="1461575277682" expanded="true" signature="709:765" placeholder="..." />
+                <marker date="1461575277682" expanded="true" signature="729:765" placeholder="..." />
+                <marker date="1461575277682" expanded="true" signature="932:1023" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,6 +148,9 @@
       <GitPushTagMode />
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -157,7 +165,6 @@
         <option value="$PROJECT_DIR$/assets/javascripts/_aside.js" />
         <option value="$PROJECT_DIR$/vendor/layzr/_layzr.js" />
         <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/_body.scss" />
         <option value="$PROJECT_DIR$/single-materials.php" />
         <option value="$PROJECT_DIR$/single-3d-printers.php" />
         <option value="$PROJECT_DIR$/assets/stylesheets/_machines.scss" />
@@ -169,6 +176,10 @@
         <option value="$PROJECT_DIR$/assets/javascripts/_smoothstate-setup.js" />
         <option value="$PROJECT_DIR$/assets/javascripts/_slider.js" />
         <option value="$PROJECT_DIR$/assets/javascripts/_initiate-headroom.js" />
+        <option value="$PROJECT_DIR$/page-templates/tpl-sidebar-contact.php" />
+        <option value="$PROJECT_DIR$/page-news.php" />
+        <option value="$PROJECT_DIR$/single-news.php" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/_body.scss" />
       </list>
     </option>
   </component>
@@ -358,6 +369,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="page-templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -426,7 +451,7 @@
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="header.scss&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/assets/stylesheets/_header.scss&#10;slider&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/assets/javascripts/_slider.js&#10;termin&#9;ACTION&#9;ActivateTerminalToolWindow&#10;single&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/single-3d-printers.php&#10;header&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/assets/stylesheets/_header.scss&#10;body&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/assets/stylesheets/_body.scss&#10;bo&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/assets/stylesheets/_body.scss&#10;3d&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/single-3d-printers.php&#10;header.&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/header.php&#10;header.js&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/node_modules/tar/lib/header.js&#10;footer&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/footer.php&#10;bod&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/assets/stylesheets/_body.scss&#10;HEADER.SCSS&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/assets/stylesheets/_header.scss&#10;searc&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/search.php&#10;404&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/404.php&#10;header.php&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/header.php&#10;gulpfile&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/gulpfile.js&#10;gulp&#9;ACTION&#9;ActivateGulpToolWindow" />
+    <property name="SearchEverywhereHistoryKey" value="body&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/assets/stylesheets/_body.scss&#10;header.scss&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/assets/stylesheets/_header.scss&#10;slider&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/assets/javascripts/_slider.js&#10;termin&#9;ACTION&#9;ActivateTerminalToolWindow&#10;single&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/single-3d-printers.php&#10;header&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/assets/stylesheets/_header.scss&#10;bo&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/assets/stylesheets/_body.scss&#10;3d&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/single-3d-printers.php&#10;header.&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/header.php&#10;header.js&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/node_modules/tar/lib/header.js&#10;footer&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/footer.php&#10;bod&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/assets/stylesheets/_body.scss&#10;HEADER.SCSS&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/assets/stylesheets/_header.scss&#10;searc&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/search.php&#10;404&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/404.php&#10;header.php&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/header.php&#10;gulpfile&#9;FILE&#9;file://C:/Users/Sam/Desktop/sys/public/wp-content/themes/sys/gulpfile.js&#10;gulp&#9;ACTION&#9;ActivateGulpToolWindow" />
     <property name="nodejs_interpreter_path" value="C:\Program Files (x86)\nodejs\node" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="C:\Users\Sam\Desktop\sys\public\wp-content\themes\sys\node_modules\gulp" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
@@ -479,7 +504,7 @@
       <workItem from="1461054258008" duration="10968000" />
       <workItem from="1461070524895" duration="1721000" />
       <workItem from="1461567987901" duration="616000" />
-      <workItem from="1461568806244" duration="5263000" />
+      <workItem from="1461568806244" duration="6530000" />
     </task>
     <task id="LOCAL-00001" summary="Made SPA with jQuery SmoothState. Minor improvements elsewhere.">
       <created>1461071391716</created>
@@ -516,11 +541,18 @@
       <option name="project" value="LOCAL" />
       <updated>1461573950135</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Change to headway tolerance, bumping this up stopped the scroll back to the top of the page being so janky.">
+      <created>1461574097005</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1461574097006</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18568000" />
+    <option name="totallyTimeSpent" value="19835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -529,6 +561,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285273" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3285273" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20082389" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -543,7 +576,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -566,34 +598,14 @@
     <MESSAGE value="Slider performance improvements, attempting to force GPU rendering!" />
     <MESSAGE value="Added headroom to hide header when the user scrolls down and show it again when they scroll up ( looking for it )." />
     <MESSAGE value="Neatened up the slider JS, fixed the problem where it would skip slides after being reloaded via smoothstate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Neatened up the slider JS, fixed the problem where it would skip slides after being reloaded via smoothstate" />
+    <MESSAGE value="Change to headway tolerance, bumping this up stopped the scroll back to the top of the page being so janky." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change to headway tolerance, bumping this up stopped the scroll back to the top of the page being so janky." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/404.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/xampp/htdocs/consumables/wp-content/themes/sys-consumables-store/assets/javascripts/_smoothstate-initiate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
@@ -667,14 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/_body.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1988">
-          <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -771,8 +775,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/javascripts/_initiate-headroom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        <state relative-caret-position="308">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-news.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-templates/tpl-sidebar-contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/single-news.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="83" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
+          <folding>
+            <marker date="1461575277682" expanded="true" signature="709:765" placeholder="..." />
+            <marker date="1461575277682" expanded="true" signature="729:765" placeholder="..." />
+            <marker date="1461575277682" expanded="true" signature="932:1023" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/_body.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
           <folding />
         </state>
       </provider>
