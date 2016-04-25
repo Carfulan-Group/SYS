@@ -3,7 +3,7 @@ function home ( $ )
 
 	$ ( '#home-video' ).click ( function ()
 	{
-		$theSource = $ ( this ).find ( "iframe" ).attr ( 'the-src' );
+		var $theSource = $ ( this ).find ( "iframe" ).attr ( 'the-src' );
 		$ ( this ).find ( "iframe" ).attr ( 'src', $theSource );
 		$ ( this ).find ( "iframe" ).attr ( 'the-src', '' );
 		$ ( this ).find ( 'i' ).hide ();
@@ -19,8 +19,8 @@ function home ( $ )
 	{
 		$ ( '.three-cta' ).each ( function ()
 		{
-			$counter = 0;
-			$height  = Array ();
+			var $counter = 0,
+				$height  = Array ();
 
 			$ ( this ).find ( '.item' ).each ( function ()
 			{
@@ -28,44 +28,28 @@ function home ( $ )
 				$counter ++;
 			} );
 
-			$biggest = Math.max.apply ( Math, $height );
+			var $biggest = Math.max.apply ( Math, $height );
 
 			$ ( this ).find ( '.item' ).each ( function ()
 			{
 				if ( $ ( this ).innerHeight () < $biggest )
 				{
-					$newSpacer = $biggest - $ ( this ).innerHeight ();
+					var $newSpacer = $biggest - $ ( this ).innerHeight ();
 					$ ( this ).find ( 'p' ).css ( 'margin-bottom', $newSpacer + 'px' );
 				}
 			} );
 		} );
 	}
 
-	$ ( window ).load ( function ()
-	{
-		paraSize ();
-	} );
+	paraSize ();
 
-	$ ( '.tweet p' ).each ( function ()
+	$ ( '.tweet' ).find ( 'p' ).each ( function ()
 	{
 		var $this = $ ( this );
 		if ( $this.html ().replace ( /\s|&nbsp;/g, '' ).length == 0 )
 		{
 			$this.remove ();
 		}
-	} );
-
-	$ ( '.tweet' ).each ( function ()
-	{
-
-		$tweetContent = $ ( this ).html ();
-		$wordPreP     = $tweetContent.split ( " " ).pop ();
-		$word         = $wordPreP.replace ( '<p>', '' ).replace ( '</p>', '' );
-
-		// window.alert($word)
-
-		// $(this).before('<a href="' + $word +'" target="_blank">');
-		// $(this).after('</a>')
 	} );
 
 }
