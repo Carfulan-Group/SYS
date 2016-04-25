@@ -20,7 +20,7 @@
 	<div class="single-news-showcase vertical-padding-large">
 		<div class="row">
 			<?php
-				query_posts ( array ( 'post_type' => 'news', 'showposts' => '3', 'orderby' => 'rand' ) );
+				query_posts ( array ( 'post_type' => 'case-studies', 'showposts' => '3', 'orderby' => 'rand' ) );
 				if ( have_posts () ): while ( have_posts () ): the_post ();
 					?>
 					<div class="col-sm-4">

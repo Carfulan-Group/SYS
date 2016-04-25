@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6a65cf95-cb8c-4264-b31b-cc758717861d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/_body.scss" afterPath="$PROJECT_DIR$/assets/stylesheets/_body.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/main.css" afterPath="$PROJECT_DIR$/assets/stylesheets/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single-news.php" afterPath="$PROJECT_DIR$/single-news.php" />
     </list>
     <ignored path="sys.iws" />
@@ -69,16 +67,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_initiate-headroom.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/javascripts/_initiate-headroom.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_body.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_body.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/stylesheets/_body.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="317">
@@ -119,16 +107,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single-news.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/single-news.php">
+      <file leaf-file-name="single-case-studies.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/single-case-studies.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
+            <state relative-caret-position="252">
               <caret line="12" column="83" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
-              <folding>
-                <marker date="1461575277682" expanded="true" signature="709:765" placeholder="..." />
-                <marker date="1461575277682" expanded="true" signature="729:765" placeholder="..." />
-                <marker date="1461575277682" expanded="true" signature="932:1023" placeholder="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -154,8 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vendor/jquery-smoothstate/smoothstate.min.js" />
-        <option value="$PROJECT_DIR$/search.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/assets/javascripts/_masonry.js" />
         <option value="$PROJECT_DIR$/assets/javascripts/_menu.js" />
@@ -178,8 +160,10 @@
         <option value="$PROJECT_DIR$/assets/javascripts/_initiate-headroom.js" />
         <option value="$PROJECT_DIR$/page-templates/tpl-sidebar-contact.php" />
         <option value="$PROJECT_DIR$/page-news.php" />
-        <option value="$PROJECT_DIR$/single-news.php" />
         <option value="$PROJECT_DIR$/assets/stylesheets/_body.scss" />
+        <option value="$PROJECT_DIR$/page-templates/single-case-studies.php" />
+        <option value="$PROJECT_DIR$/single-news.php" />
+        <option value="$PROJECT_DIR$/single-case-studies.php" />
       </list>
     </option>
   </component>
@@ -504,7 +488,7 @@
       <workItem from="1461054258008" duration="10968000" />
       <workItem from="1461070524895" duration="1721000" />
       <workItem from="1461567987901" duration="616000" />
-      <workItem from="1461568806244" duration="6530000" />
+      <workItem from="1461568806244" duration="7684000" />
     </task>
     <task id="LOCAL-00001" summary="Made SPA with jQuery SmoothState. Minor improvements elsewhere.">
       <created>1461071391716</created>
@@ -548,22 +532,29 @@
       <option name="project" value="LOCAL" />
       <updated>1461574097006</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added share buttons and contact form to news posts.">
+      <created>1461575356205</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1461575356206</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19835000" />
+    <option name="totallyTimeSpent" value="20989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285273" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3285273" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3285273" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20082389" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285273" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12793177" sideWeight="0.51493305" order="2" side_tool="true" content_ui="tabs" />
@@ -599,27 +590,14 @@
     <MESSAGE value="Added headroom to hide header when the user scrolls down and show it again when they scroll up ( looking for it )." />
     <MESSAGE value="Neatened up the slider JS, fixed the problem where it would skip slides after being reloaded via smoothstate" />
     <MESSAGE value="Change to headway tolerance, bumping this up stopped the scroll back to the top of the page being so janky." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change to headway tolerance, bumping this up stopped the scroll back to the top of the page being so janky." />
+    <MESSAGE value="Added share buttons and contact form to news posts." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added share buttons and contact form to news posts." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/_menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/javascripts/_masonry.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-784">
@@ -789,6 +767,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/_body.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-templates/single-case-studies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="23" column="75" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/single-news.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <marker date="1461576385697" expanded="true" signature="709:765" placeholder="..." />
+            <marker date="1461576385697" expanded="true" signature="729:765" placeholder="..." />
+            <marker date="1461576385697" expanded="true" signature="940:1031" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/page-templates/tpl-sidebar-contact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -797,22 +803,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/single-news.php">
+    <entry file="file://$PROJECT_DIR$/single-case-studies.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="252">
           <caret line="12" column="83" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
-          <folding>
-            <marker date="1461575277682" expanded="true" signature="709:765" placeholder="..." />
-            <marker date="1461575277682" expanded="true" signature="729:765" placeholder="..." />
-            <marker date="1461575277682" expanded="true" signature="932:1023" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/_body.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
           <folding />
         </state>
       </provider>
