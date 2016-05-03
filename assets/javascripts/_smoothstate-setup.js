@@ -9,7 +9,6 @@ function pageLoad ( $ )
 	footer ( $ );
 	contactForm ( $ );
 	aside ( $ );
-	initiateHeadroom (); // does not need jQuery
 
 	// set up for lazy loading images
 	new Layzr ( {
