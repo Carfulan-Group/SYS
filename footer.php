@@ -5,9 +5,10 @@
 				<h6>Contact Us</h6>
 				<?php
 					echo do_shortcode ( '[easy_options id="address"]' );
-					echo "Call: ";
-					echo do_shortcode ( '[easy_options id="phone"]' );
+					$phone = do_shortcode ( '[easy_options id="phone"]' );
 				?>
+				<a href="tel:<?php echo $phone; ?>">Call:
+					<span class="number" style="padding: 0;margin: 0;"><?php echo $phone; ?></span></a>
 			</div>
 			<div class="col-md-3 col-sm-6 footer-menu">
 				<h6>Industries</h6>

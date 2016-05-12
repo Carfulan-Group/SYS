@@ -14,10 +14,36 @@
 	<meta name="msapplication-TileColor" content="#0097d8">
 	<meta name="theme-color" content="#0097d8">
 	<!-- end of favicons -->
+	<!-- Start | Google Forwarding Number-->
+	<script type="text/javascript">
+		(function ( a, e, c, f, g, b, d )
+		{
+			var
+				h  = { ak : "993330739", cl : "HCFiCNOq-mUQs4zU2QM" };
+			a[ c ] = a[ c ] ||
+					 function ()
+					 {
+						 (a[ c ].q = a[ c ].q || []).push ( arguments )
+					 };
+			a[ f ] ||
+			(a[ f ] = h.ak);
+			b       = e.createElement ( g );
+			b.async = 1;
+			b.src   = "//www.gstatic.com/wcm/loader.js";
+			d       = e.getElementsByTagName ( g )[ 0 ];
+			d.parentNode.insertBefore ( b, d );
+			a._googWcmGet = function ( b, d, e )
+			{
+				a[ c ] ( 2, b, h, d, null, new
+					Date, e )
+			}
+		}) ( window, document, "_googWcmImpl", "_googWcmAk", "script" );
+	</script>
+	<!-- End | Google Forwarding Number -->
 	<?php wp_head (); ?>
 </head>
 
-<body>
+<body onload="_googWcmGet('number', '<?php echo do_shortcode ( '[easy_options id="phone"]' ); ?>')">
 <div id="smoothstate" class="m-scene">
 	<div <?php body_class (); ?>>
 		<!-- Google Tag Manager -->
@@ -46,7 +72,8 @@
 						<?php wp_nav_menu ( array ( 'theme_location' => 'social-menu', 'container_class' => 'small-hide' ) ); ?>
 					</div>
 					<div class="pull-right">
-						<span><i class="icon-phone"></i>01283 585955</span>
+						<?php $phone = do_shortcode ( '[easy_options id="phone"]' ); ?>
+						<span><a href="tel:<?php echo $phone; ?>"><i class="icon-phone"></i><span class="number" style="padding: 0;margin: 0;"><?php echo $phone; ?></span></a></span>
 						<span><a href="mailto:info@sys-uk.com"><i class="icon-mail"></i>info@sys-uk.com</a></span>
 					</div>
 				</div>
